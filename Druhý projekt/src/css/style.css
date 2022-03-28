@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1366px;
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 230px;
+}
+
+.book {
+    width: 37%;
+    margin-top: 160px;
+}
+
+.desc {
+    width: 63%;
+    color: #000000;
+    margin-top: 80px;
+    
+}
+
+.desc-headtitle {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 23px;
+}
+
+.desc-subtitle {
+    font-size: 30px;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 41px;
+}
+
+.desc-text {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    width: 70%;
+}
+
+.price {
+    font-size: 48px;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 80px;
+}
+
+.btn {
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 40px;
+    box-shadow: 0 3px 6px rgba(173, 173, 173, 0.16);
+
+}
+
+.buy {
+    width: 175px;
+    height: 67px;
+    border: 1px solid #4572d7;
+    background-color: #4572d7;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    padding: 22px 64px;
+}
+
+.more {
+    width: 287px;
+    height: 67px;
+    border: 2px solid #4572d7;
+    font-size: 24px;
+    font-weight: 700;
+    color: #4572d7;
+    padding: 22px 74px;
+}
+
+.shipping {
+    background-color: #f2f2f2;
+    padding-bottom: 99px;
+    padding-top: 88px;
+}
+
+.shipping-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #333333;
+    text-align: center;
+    padding-bottom: 90px;
+}
+
+.shipping-wrap {
+    display: flex;
+}
+
+.shipping-item span {
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333333;
+    line-height: 1.2;
+}
+
+.shipping-item {
+    width: 25%;
+    text-align: center;
+    
+}
+
+.people-title {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 88px;
+    margin-bottom: 69px;
+}
+
+.people-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.people-item {
+    margin-bottom: 40px;
+    width: 21%;
+}
